@@ -12,7 +12,6 @@
         android:layout_height="wrap_content"
         android:text="CyberEye"
         android:textSize="32sp"
-        android:textColor="#6C63FF"
-        android:gravity="center" />
+        android:textColor="#6C63FF" />
         
 </LinearLayout>
