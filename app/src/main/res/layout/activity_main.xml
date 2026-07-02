@@ -1,32 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
-    android:orientation="vertical" android:padding="16dp" android:background="#1a1a2e">
-    <TextView android:id="@+id/display" android:layout_width="match_parent"
-        android:layout_height="100dp" android:text="0" android:textSize="40sp"
-        android:textColor="#ffffff" android:gravity="end|center_vertical"
-        android:background="#16213e" android:padding="16dp" android:layout_marginBottom="16dp" />
-    <GridLayout android:layout_width="match_parent" android:layout_height="match_parent"
-        android:rowCount="5" android:columnCount="4">
-        <Button android:id="@+id/btn_clear" android:text="C" android:layout_width="0dp"
-            android:layout_height="80dp" android:layout_columnWeight="1" android:layout_margin="4dp"
-            android:textSize="24sp" android:textColor="#ffffff" android:backgroundTint="#e74c3c"/>
-        <Button android:id="@+id/btn_div" android:text="÷" style="@style/CalcBtn"/>
-        <Button android:id="@+id/btn_mul" android:text="×" style="@style/CalcBtn"/>
-        <Button android:id="@+id/btn_sub" android:text="-" style="@style/CalcBtn"/>
-        <Button android:id="@+id/btn_7" android:text="7" style="@style/CalcBtn"/>
-        <Button android:id="@+id/btn_8" android:text="8" style="@style/CalcBtn"/>
-        <Button android:id="@+id/btn_9" android:text="9" style="@style/CalcBtn"/>
-        <Button android:id="@+id/btn_add" android:text="+" style="@style/CalcBtn"/>
-        <Button android:id="@+id/btn_4" android:text="4" style="@style/CalcBtn"/>
-        <Button android:id="@+id/btn_5" android:text="5" style="@style/CalcBtn"/>
-        <Button android:id="@+id/btn_6" android:text="6" style="@style/CalcBtn"/>
-        <Button android:id="@+id/btn_equals" android:text="=" style="@style/CalcBtn"/>
-        <Button android:id="@+id/btn_1" android:text="1" style="@style/CalcBtn"/>
-        <Button android:id="@+id/btn_2" android:text="2" style="@style/CalcBtn"/>
-        <Button android:id="@+id/btn_3" android:text="3" style="@style/CalcBtn"/>
-        <Button android:id="@+id/btn_0" android:text="0" android:layout_width="0dp"
-            android:layout_height="80dp" android:layout_columnWeight="2" android:layout_margin="4dp"
-            android:textSize="24sp" android:textColor="#ffffff" android:backgroundTint="#0f3460"/>
-    </GridLayout>
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#1a1a2e">
+    
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CyberEye"
+        android:textSize="32sp"
+        android:textColor="#6C63FF"
+        android:gravity="center" />
+        
 </LinearLayout>
