@@ -1,3 +1,3 @@
-#!/bin/sh
-DIRNAME=/data/data/com.termux/files/usr/bin
-exec java -cp /gradle/wrapper/gradle-wrapper.jar org.gradle.wrapper.GradleWrapperMain 
+#!/bin/bash
+DIRNAME=$(dirname "$0")
+exec java -cp "$DIRNAME/gradle/wrapper/gradle-wrapper.jar" org.gradle.wrapper.GradleWrapperMain "$@"
